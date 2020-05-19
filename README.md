@@ -10,7 +10,7 @@ You should also attempt to write API tests that prove where this occurs. This ca
 
 ## Running the API
 
-To run the API locally, you will require *Python 3.8.x*. You can start the server by simply running `python runserver.py`
+To run the API locally, you will require *Python 3.8.x*. Install the dependencies by running `pip install -r requirements.txt`. You can then start the server by simply running `python runserver.py`
 
 You can also build a Docker container using the provided Dockerfile by following:
 
