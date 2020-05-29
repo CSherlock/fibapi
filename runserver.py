@@ -16,5 +16,6 @@ def calc_num(n):
     val = int(((1+sqrt(5))**n-(1-sqrt(5))**n)/(2**n*sqrt(5)))
     return val
 
+# Run the API
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5555)
