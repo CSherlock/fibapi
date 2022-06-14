@@ -2,7 +2,7 @@
 
 A small API that returns Fibonacci numbers. Built using Python and Flask.
 
-## Backgroud
+## Background
 
 A Fibonacci number is one which is part of the sequence such that each number is the sum of the previous two numbers, starting with:
 
@@ -23,4 +23,4 @@ To run the API locally, you will require *Python 3.8.x*. Install the dependencie
 You can also use Docker by building the container using the provided Dockerfile:
 
     docker build . -t fibapi:latest
-    docker run -p 5555:5555 fibapi:latestn
+    docker run -p 5555:5555 fibapi:latest
